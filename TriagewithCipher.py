@@ -4,7 +4,7 @@ cipher=open("cipher2","r")
 server_offer='4865,4867,4866,49195,49199,52393,52392,49196,49200,49162,49161,49171,49172,51,57,47,53,10'
 client_choice='49199'
 
-def server_cipher_offer(cipher,server_offer):
+def server_cipher_offer(,server_offer):
 	# list the cipher and his strength
 	cipher=open("cipher2","r")
 	for line in cipher:
@@ -15,7 +15,7 @@ def server_cipher_offer(cipher,server_offer):
 		    	print "server offer: " + l[1] + " is " + l[9]
 	cipher.close()
 
-def client_cipher_choice(cipher,client_choice):
+def client_cipher_choice(,client_choice):
 	# list the cipher and his strength
 	cipher=open("cipher2","r")
 	for line in cipher:
