@@ -1,16 +1,16 @@
 # TLS-tshark-and-Threat-Intel-Python
 
-In this repository we will catch some fields on TLS traffic, and use Threat Intel to detect if the packets received may harm our network
+In this repository we will catch some fields on TLS traffic, and use Threat Intel to detect if the packets received may harm our network.
 
  
 
-# Catch the needed filed with tshark command
+# Catch the needed field with tshark command
 
 You can check this article to see how to install tshark https://www.peerlyst.com/posts/send-log-file-over-rsyslog-tls-hamza-m-hirsi?trk=profile_page_overview_panel_posts
 
  
 
-we will use this command to captures the filed needed:
+we will use this command to captures the field needed:
 
 #sudo tshark -i 1 -T fields -e ip.src -e ip.dst -e ssl.handshake.ciphersuites -e ssl.handshake.ciphersuite -e ssl.handshake.certificate -E header=n -E separator="|" >> /home/output.txt
 
