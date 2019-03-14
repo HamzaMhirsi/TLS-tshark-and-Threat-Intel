@@ -3,6 +3,7 @@ import mmap
 
 """
 The Ip is the field reiceved in the frame we will need to scan the external IP 
+we will use here the file merged with the code "merge.py"
 """
 
 file = open("reputation.data")
