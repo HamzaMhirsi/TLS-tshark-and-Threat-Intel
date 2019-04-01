@@ -78,3 +78,8 @@ Add the following lines
 
 */5 * * * * cd && wget https://sslbl.abuse.ch/blacklist/sslblacklist.csv
 
+
+# selfsignedcertificate.py
+
+In this code we will detect ifthe certificate is self signed thanks to the UTF field.
+
