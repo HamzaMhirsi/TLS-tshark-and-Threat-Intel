@@ -83,3 +83,8 @@ Add the following lines
 
 In this code we will detect ifthe certificate is self signed thanks to the UTF field.
 
+# ceart.py
+
+When we extract certificates with the tshark command with the following field "ssl.handshake.certificate" we will get the certificate in HEX, so we need to change it's syntaxe to X509 and code it in base64. 
+In this code I extracted the common name from a HEX certificate.
+
