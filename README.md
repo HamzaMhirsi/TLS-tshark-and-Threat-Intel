@@ -54,7 +54,7 @@ In this file we will use the file generated of blacklisted ip with "merge.py", a
 
  
 
-# cipher2
+# cipher2 | cipher_list.txt
 
 This is a list of cipher used classed Modern, Intermediate, Old and Weak.
 
